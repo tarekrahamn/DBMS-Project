@@ -1,14 +1,14 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "loginfirst";
+$server ="localhost";
+$username ="root";
+$password ="";
+$database ="login";
 
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_error) {
-    die("Failed to connect to DB: " . $conn->connect_error);
+$conn=mysqli_connect($server,$username,$password,$database);
+if(!$conn){
+    die("Error".mysqli_connect_error());
 }
 
-echo "Successfully connected to the database.";
+
+
 ?>
