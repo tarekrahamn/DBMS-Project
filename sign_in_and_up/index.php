@@ -79,8 +79,7 @@
         <div class="content">
           <h3>New here ?</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            ex ratione. Aliquid!
+            Welcome 2
           </p>
           <button class="btn transparent" id="sign-up-btn">
             Sign up
@@ -92,8 +91,7 @@
         <div class="content">
           <h3>Please Login to Enter TAREK Home</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            laboriosam ad deleniti.
+           Welcome
           </p>
           <button class="btn transparent" id="sign-in-btn">
             Sign in
